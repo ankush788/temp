@@ -1,6 +1,7 @@
 /*using this not change inner bg */
 .inherit-bg > * {     
     @apply bg-inherit;
+    z-index: 0;
 }
 
 .inherit-all-bg *{

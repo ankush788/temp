@@ -11,12 +11,13 @@ function CourseCard() {
       <p className=" mt-[20px] lg:mx-[70px] mx-[20px] font-semibold">
         Home {">"} AI powered Full Stack Development{" "}
       </p>
-      <div className="bg-white inherit-all-bg rounded-[40px] pb-[40px] mt-5  border-[1px] border-solid lg:w-[40%] lg:ml-[70px] lg:mx-0  mx-[20px]">
-        <div className="  lg:ml-[30px] lg:mt-[40px]  md:flex  sm:block  items-center ">
-          <button className="Purple-gradient rounded-[20px] px-3 py-2 lg:text-[10px] text-[8px]  lg:mt-0  mt-[10px] text-white font-semibold md:mx-0 mx-auto block">
+      <div className="bg-white inherit-all-bg rounded-[40px] pb-[40px] p-3 border-[1px] border-solid lg:w-[40%] lg:ml-[70px] lg:mx-0  mx-[20px]">
+
+        <div className="  lg:ml-[30px] lg:mt-[40px]  flex   items-center ">
+          <button className="Purple-gradient rounded-[20px] px-3 py-2 lg:text-[10px] text-[8px]  mt-0  text-white font-semibold md:mx-0 ">
             POPULAR
           </button>
-          <button className="lg:flex items-center text-[#6A11B0] rounded-[20px] lg:text-[10px] text-[8px] my-[10px]  lg:my-0  px-2 lg:py-2  font-semibold  lg:mx-[10px]  mx-auto block  bg-[#9d9aa3] ">
+          <button className="flex  items-center text-[#6A11B0] rounded-[20px] lg:text-[10px] text-[8px]   my-0  px-2   font-semibold  mx-[10px]   bg-[#9d9aa3] ">
             <img
               className="h-[14px] p-[2px] "
               src={CodeEditor}
@@ -24,7 +25,7 @@ function CourseCard() {
             />
             IMMERSIVE LEARNING
           </button>
-          <button className="md:mx-0 mx-auto block lg:mb-0  mb-[10px]">
+          <button className="md:mx-0  lg:mb-0  mb-[10px]">
             <img className="h-[16px]" src={shareImg} alt="share" />
           </button>
         </div>
@@ -40,9 +41,9 @@ function CourseCard() {
         </p>
         {/*-------------------------------------------- */}
 
-        <p className="ml-[30px] font-semibold lg:text-3xl text-2xl red-gradient-text">
+        <h1 className="ml-[30px] font-semibold lg:text-3xl text-2xl red-gradient-text">
           Full-Stack Development
-        </p>
+        </h1>
         {/*--------------------------------------------------- */}
 
         <ol className="pl-[26px] pt-1">
