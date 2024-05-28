@@ -1,6 +1,6 @@
 import React from "react";
 import Point from "./Point";
-import RedButton from "../../GobalComponent/Button/RedButton"
+import DownloadButton from "../../GobalComponent/Button/DownloadButton";
 import Button from "../../GobalComponent/Button/Button";
 import shareImg from "../../asset/share.png";
 import CodeEditor from "../../asset/codeEditor.png";
@@ -12,7 +12,6 @@ function CourseCard() {
         Home {">"} AI powered Full Stack Development{" "}
       </p>
       <div className="bg-white inherit-all-bg rounded-[40px] pb-[40px] p-3 border-[1px] border-solid lg:w-[40%] lg:ml-[70px] lg:mx-0  mx-[20px]">
-
         <div className="  lg:ml-[30px] lg:mt-[40px]  flex   items-center ">
           <button className="Purple-gradient rounded-[20px] px-3 py-2 lg:text-[10px] text-[8px]  mt-0  text-white font-semibold md:mx-0 ">
             POPULAR
@@ -60,10 +59,7 @@ function CourseCard() {
             text="Talk to career counsellor"
             attribute=" font-semibold border  border-[2px] rounded  ml-[30px] mr-2  p-1.5 "
           />
-          <RedButton
-            text="Download Syllabus"
-            attribute="border  border-[2px] p-1.5 font-semibold text-white mr-2"
-          />
+          <DownloadButton />
         </div>
       </div>
     </div>
