@@ -12,9 +12,12 @@ function Connect() {
         <p className="text-white w-[90%] text-[15px] font-semibold block mx-auto text-center lg:text-start  lg:mx-0 bg-transparent">
           Ready to turn your tech aspirations into reality?
         </p>
-        <button className=" mt-[10px] p-2 rounded-md text-[12px] font-semibold block mx-auto lg:mx-0  bg-white ">
+        <a
+          className=" mt-[10px] p-2 rounded-md text-[12px] font-semibold w-fit lg:mx-0  lg:flex bg-white block mx-auto "
+          href="https://wa.me/+916363409869"
+        >
           Connect With Us
-        </button>
+        </a>
       </div>
     </div>
   );

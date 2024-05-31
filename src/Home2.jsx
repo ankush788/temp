@@ -7,6 +7,8 @@ import LearningExperenices from './component2/LearningExperenices/LearningExpere
 import CourseInsight from './component2/CourseInsight/CourseInsight';
 import Prerequisites from './component2/Prerequisites/Prerequisites';
 import Connect from "./component/Connect/Connect";
+import Footer from './component2/Footer/Footer';
+import Disclamer from './component2/Footer/Disclamer';
 export default function Home2() {
   return (
     <div>
@@ -18,6 +20,8 @@ export default function Home2() {
       <CourseInsight/>
       < Prerequisites />
       <Connect/>
+      <Footer/>
+     <Disclamer/>
     </div>
   );
 }
