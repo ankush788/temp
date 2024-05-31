@@ -1,5 +1,5 @@
 import React from 'react'
-import ConnectImg from "../../asset/connect.svg"
+import ConnectImg from "../../asset/icon/connect.svg"
 function Connect() {
   return (
     <div className=" p-[20px] bg-gradient-to-b from-[#280154] from-30% to-[#15002E] to-100%  lg:flex lg:justify-center lg:items-center block  lg:w-[90%] lg:mx-auto">

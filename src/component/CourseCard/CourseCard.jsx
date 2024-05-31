@@ -2,8 +2,8 @@ import React from "react";
 import Point from "./Point";
 import DownloadButton from "../../GobalComponent/Button/DownloadButton";
 import Button from "../../GobalComponent/Button/Button";
-import shareImg from "../../asset/share.png";
-import CodeEditor from "../../asset/codeEditor.png";
+import shareImg from "../../asset/icon/share.png";
+import CodeEditor from "../../asset/icon/codeEditor.png";
 
 function CourseCard() {
   return (

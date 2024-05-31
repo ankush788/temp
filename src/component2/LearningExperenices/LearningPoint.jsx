@@ -1,9 +1,9 @@
-import React, { useContext, useState } from "react";
-import Tick from "../../asset/tick.svg";
+import React, { useContext } from "react";
+import Tick from "../../asset/icon/tick.svg";
 import { LearningContext } from "./LearningExperenices";
 
 export default function LearningPoint({ dataPoint }) {
-  const { Index, setIndex } = useContext(LearningContext);
+  const { Index } = useContext(LearningContext);
 
   return (
     <div>
@@ -30,7 +30,7 @@ export default function LearningPoint({ dataPoint }) {
         <div>
           {dataPoint.points.map((point, key) => (
             <div key={key} className="flex  items-start ">
-              <img src={Tick} alt="" className="mr-[5px] mb-[5px]"/>
+              <img src={Tick} alt="" className="mr-[5px] mb-[5px]" />
               <p className=" text-[10px] lg:text-[14px]">{point}</p>
             </div>
           ))}

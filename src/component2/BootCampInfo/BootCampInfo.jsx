@@ -1,6 +1,6 @@
 import React from "react";
 import Point from "./Points";
-import Thumbs from "../../asset/thumbsUp.svg";
+import Thumbs from "../../asset/icon/thumbsUp.svg";
 import DownloadButton from "../../GobalComponent/Button/DownloadButton";
 import Button from "../../GobalComponent/Button/Button";
 

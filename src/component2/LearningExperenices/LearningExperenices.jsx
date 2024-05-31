@@ -60,6 +60,15 @@ export default function LearningExperiences() {
           "Peer Learning and Recall Quizzes",
         ],
       },
+      {
+        id: 6,
+        title: "Apply",
+        points: [
+          "Expert-Led Training",
+          "On-Demand Learning Videos",
+          "Peer Learning and Recall Quizzes",
+        ],
+      },
     ]);
   }, []);
 

@@ -1,7 +1,7 @@
 import React from "react";
 import CertificationImg from "../../asset/certificateImg.svg";
-import protection from "../../asset/protection.svg";
-import sharable from "../../asset/sharable.svg";
+import protection from "../../asset/icon/protection.svg";
+import sharable from "../../asset/icon/sharable.svg";
 import upgrade from "../../asset/upgrade.svg";
 export default function Certification() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import star from "../../asset/star.png";
+import star from "../../asset/icon/star.png";
 function Point(props) {
   return (
     <li className="flex items-center py-0.5">

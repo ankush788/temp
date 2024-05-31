@@ -1,5 +1,5 @@
 import React from 'react'
-import circleTick from "../../asset/circleTick.svg";
+import circleTick from "../../asset/icon/circleTick.svg";
 export default function Point(props) {
   return (
     <div className="flex my-[5px] ">
